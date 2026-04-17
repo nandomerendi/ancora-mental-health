@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "Âncora — Dev (Vite)",
+      "runtimeExecutable": "sh",
+      "runtimeArgs": ["-c", "cd /Users/nando/ancora-mental-health && npm run dev"],
+      "port": 5173
+    },
+    {
+      "name": "Âncora — Preview (Vite build)",
+      "runtimeExecutable": "sh",
+      "runtimeArgs": ["-c", "cd /Users/nando/ancora-mental-health && npm run preview"],
+      "port": 4173
+    }
+  ]
+}
